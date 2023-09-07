@@ -1,3 +1,78 @@
-label{
-    display:block;
-}
+  * {
+      box-sizing: border-box;
+      max-width: 1600px;
+      margin: auto;
+  }
+
+  /* common style */
+
+  .primary-description {
+      color: #444343;
+      font-size: 16px;
+      font-weight: 400;
+      width: 494px;
+      text-align: center;
+  }
+
+  .primary-button {
+      width: 160px;
+      border-radius: 5px;
+      background: #F15B22;
+      border: none;
+      padding: 22px;
+      margin-top: 32px;
+      color: #FFF;
+  }
+
+  /* header styles */
+  header {
+      background-image: url('images/banner/banner1.png');
+      width: 1600px;
+      height: 808px;
+  }
+
+  .header {
+      text-align: right;
+        padding: 216px 230px 160px 845px;
+       
+
+  }
+
+  .header-title {
+      color: #151414;
+      font-size: 65px;
+      font-weight: 700;
+      text-align: center;
+  }
+  /* main style */
+   .section-colum {
+    display: flex;
+    text-align: left;
+   }
+     
+    .header-title-2 {
+        color:   #151414;
+        width: 288px;
+        font-size: 40px;
+        font-weight: 700;
+        text-align: left;
+        
+    }
+    .row{
+        display: flex;
+        
+    }
+    .center-item{
+        align-items: right;
+    }
+     .back {
+        background-image:url('images/watch.png'),url(images/gradient2.png) ;
+        background-size: cover;
+       z-index: 1,2;
+       
+        
+     }
+     .last-foot{
+        display: flex;
+     }
+      
